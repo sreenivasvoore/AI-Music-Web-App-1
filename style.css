@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    font-family: cursive;
+}
+
+canvas{
+    border: 20px ridge black;
+    width: 1200px;
+    height: 800px;
+    animation-name: canvasAnimation;
+}
+
+@keyframes canvasAnimation{
+    to{
+        box-shadow: 1px 1px 38px navy;
+    }
+
+    from{
+        box-shadow: 1px 1px 38px gray;
+    }
+}
